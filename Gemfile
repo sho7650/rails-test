@@ -7,6 +7,8 @@ gem 'rails', '4.2.5.2'
 gem 'sqlite3', group: :development
 # Use postgresql as the database of production
 gem 'pg', group: :production
+# Depend on rails_12factor for Heroku
+gem 'rails_12factor', group: :production
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
